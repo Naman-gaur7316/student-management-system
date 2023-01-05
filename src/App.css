@@ -16,7 +16,6 @@ body {
 
 .App {
   display: flex;
-  justify-content: space-around;
   width: 100%;
   padding: 5rem 2rem;
   height: 100vh;
@@ -26,19 +25,15 @@ body {
 h2 {
   text-align: center;
   font-size: 2.7rem;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .details-section {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  flex: 1 1 30%;
-}
-
-.student-form {
-  margin-top: -4rem;
+  /* justify-content: space-evenly; */
+  flex: 1 1 40%;
 }
 
 .form-group:has(input) {
